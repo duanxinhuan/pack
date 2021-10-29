@@ -43,7 +43,7 @@
           <td>{{ item.orderName }}</td>
           <td>{{ item.company }}</td>
           <td>{{ item.customerName }}</td>
-          <td>{{ item.orderDate }}</td>
+          <td>{{ computeValue(item.orderDate) }}</td>
           <td>{{ item.deliveredAmount }}</td>
           <td>{{ item.totalAmount }}</td>
         </tr>
@@ -58,6 +58,9 @@ export default {
     methods:{
         click(){
             console.log("kk")
+        },
+        computeValue(value){
+            return value+1;
         },
         passOrderEvent(){
             if(this.orderStatus === 'NotOdered'){
