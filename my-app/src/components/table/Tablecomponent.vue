@@ -16,7 +16,9 @@ export default {
         orderEvent(orderStatus){
             console.log("trigger from table component!")
             console.log(orderStatus)
-        }
+        },
+
+       
     },
 
     data(){
@@ -26,7 +28,7 @@ export default {
                     orderName:"#c91018",
                     company:"happy PLT",
                     customerName: "Jhone Lenno",
-                    orderDate: "77",
+                    orderDate: 77,
                     deliveredAmount:33.5,
                     totalAmount:22.9,
                 }
