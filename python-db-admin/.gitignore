@@ -1,0 +1,6 @@
+postgres/
+dblog.txt
+local.session.sql
+mongo.txt
+venv/
+inserters/__pycache__/
