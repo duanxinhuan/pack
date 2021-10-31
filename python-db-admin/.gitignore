@@ -4,3 +4,4 @@ local.session.sql
 mongo.txt
 venv/
 inserters/__pycache__/
+database.ini
